@@ -9,7 +9,7 @@
   path = require('path');
 
   app.use(gzippo.staticGzip(path.join(bundle.root, 'static'), {
-    prefix: '/cache',
+    prefix: '/cache/',
     clientMaxAge: 1000 * 60 * 60 * 24 * 365
   }));
 

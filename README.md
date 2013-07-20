@@ -1,4 +1,9 @@
-# cache-forever
+# Obsolete
+
+This package is obsolete: Meteor currently caches all static files.
+
+
+## cache-forever
 
 This is an experimental package which adds a URL route "/cache" which
 serves files in `public` with the cache header set to enable caching.
